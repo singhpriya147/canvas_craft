@@ -1,0 +1,19 @@
+import React from 'react';
+import ReactDOM from 'react-dom/client';
+import './index.css';
+import App from './App';
+// import reportWebVitals from './reportWebVitals';
+// import KonvaEditableText from './KonvaEditableText';
+// import { StickyNote } from './StickyNotes';
+// import VideoPlayer from './VideoPlayer';
+const root = ReactDOM.createRoot(document.getElementById('root'));
+root.render(
+  <React.StrictMode>
+    <App />
+  {/* <KonvaEditableText/> */}
+{/* <VideoPlayer/> */}
+{/* <StickyNote/> */}
+  </React.StrictMode>
+);
+
+
