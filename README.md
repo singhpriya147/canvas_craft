@@ -1,6 +1,6 @@
 # CanvasCraft 
 
-**CanvasCraft** is a feature-rich canvas application built using React, CSS, and Konva.js. This project was developed in April 2024 to provide a comprehensive tool for drawing various shapes, scribbling, and customizing shapes with different colors. It also includes functionality for uploading images and downloading the canvas content in PNG format.
+**CanvasCraft** is a feature-rich canvas application built using React, CSS, and Konva.js. This project was developed to provide a comprehensive tool for drawing various shapes, scribbling, and customizing shapes with different colors. It also includes functionality for uploading images and downloading the canvas content in PNG format.
 
 ## Features
 
@@ -16,10 +16,26 @@
 - **CSS**: Styling the application.
 - **Konva.js**: A 2D canvas library for drawing complex shapes and handling interactions.
 
-## Installation
 
-1. **Clone the repository:**
+## Running the project
+### Installation
 
-   ```bash
-   git clone https://github.com/yourusername/CanvasCraft.git
-   cd CanvasCraft
+1. **Clone the Repository:**
+    ```bash
+    git clone https://github.com/singhpriya147/canvas_craft.git
+ 
+    ```
+
+2. **Install Dependencies:**
+    ```bash
+    npm install
+
+### Quick Start
+Follow these steps to quickly start the project:
+1. **Run the Application:**
+    ```bash
+    npm start
+    ```
+
+2. **Access the Application:**
+   Open your web browser and go to `http://localhost:3000` to access the Canvas Craft web app.
