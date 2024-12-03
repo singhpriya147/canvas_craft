@@ -495,17 +495,7 @@ const handleColorInputChange = (event) => {
                 onClick={onClick}
               />
             ))}
-            {image && (
-              <KonvaImage
-                image={image}
-                x={0}
-                y={0}
-                height={SIZE / 2}
-                width={SIZE / 2}
-                draggable={isDraggable}
-                onClick={onClick}
-              />
-            )}
+           
 
           
 
